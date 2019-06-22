@@ -1,0 +1,73 @@
+@media print{
+    #about, .tm-sidebar, .tm-team-img, .gallery-container, #contact, .img-contact-us, .carousel-indicators {
+        display: none;
+    }
+    .tm-section-title {
+        text-transform: uppercase;
+        color: lightskyblue;
+        font-size: 24;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        color: lightskyblue;
+        font-weight: normal;
+    }
+    .tm-main-content {
+        padding-top: 0pt;
+    }
+    .tm-content-box {
+        margin: 0px;
+        padding: 0px;
+        font-size: 11px;
+        max-width: 100%;
+    }
+    .tm-team-description-container {
+        max-width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .padding-medium {
+        padding: 0px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 11px;
+    }
+    .tm-banner {
+        padding: 0px;
+        height: 100px;
+    }
+    .tm-banner-inner img {
+        width: 70px;
+    }
+    .tm-banner-text {
+        font-size: 1em;
+    }
+    .text-xs-center {
+        margin-top: 7px;
+        font-size: 11px;
+    }
+    ol {
+        max-width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-inline-start: 0px;
+    }
+    ol li {
+        list-style-type: none;
+        margin: 5px;
+    }
+    li:nth-child(odd) {
+        text-align: left;
+    }
+    li:nth-child(even) {
+        text-align: right;
+    }
+
+}
+
+@media screen {
+
+}
