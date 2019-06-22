@@ -59,6 +59,13 @@
         list-style-type: none;
         margin: 5px;
     }
+    li a {
+        color: black;
+    }
+    li::first-letter {
+        color: lightskyblue;
+        font-size: 140%;
+    }
     li:nth-child(odd) {
         text-align: left;
     }
